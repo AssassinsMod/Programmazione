@@ -1,0 +1,26 @@
+apply plugin: 'java'
+
+// JAR
+version = "v1.0.0"
+sourceCompatibility = 1.8
+jar {
+	manifest {
+		attributes	"Implementation-Title": "asd",
+					"Implementation-Version": version,
+					"Main-Class": "Esercizio3"
+	}
+}
+
+// Project
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile		'org.json:json:20151123',
+                files('./libs/prog-4ed.jar')
+
+	testCompile 'junit:junit:4.12',
+				'org.json:json:20151123',
+                files('./libs/prog-4ed.jar')
+}

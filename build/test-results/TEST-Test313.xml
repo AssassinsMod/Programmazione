@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test313" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-01-13T18:59:26" hostname="L-VM" time="0.015">
+  <properties/>
+  <testcase name="lessMinima" classname="Test313" time="0.011"/>
+  <testcase name="lessMassima" classname="Test313" time="0.001"/>
+  <testcase name="piuGrande" classname="Test313" time="0.001"/>
+  <testcase name="piuPiccola" classname="Test313" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
