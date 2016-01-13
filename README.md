@@ -1,6 +1,6 @@
 # College Coding's Class Exercises
 
 ### Last Test Results
-Last test results can be found at the *[tests][]* page.
+Last test results can be found [here][tests]
 
-[test]: http://assassinsmod.github.io/Programmazione/tests/
+[tests]: http://assassinsmod.github.io/Programmazione/tests/
