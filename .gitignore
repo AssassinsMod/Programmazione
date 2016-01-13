@@ -3,3 +3,10 @@
 
 # Old Projects
 _old/
+
+# Gradle
+.gradle/
+build/classes/
+build/dependency-cache/
+build/test-results/
+build/tmp/
