@@ -1,3 +1,5 @@
+package exercises;
+
 import java.util.*;
 
 import prog.io.*;
@@ -13,10 +15,10 @@ public class Es313 {
             @Override
             public int compare(String s1, String s2) {
                 switch (sel) {
-                    case LESSMAX: return s2.compareTo(s1);
-                    case LESSMIN: return s1.compareTo(s2);
-                    case LONGEST: return s2.length() - s1.length();
+                    case LESSMIN:  return s1.compareTo(s2);
+                    case LESSMAX:  return s2.compareTo(s1);
                     case SHORTEST: return s1.length() - s2.length();
+                    case LONGEST:  return s2.length() - s1.length();
                     default: return 0;
                 }
             }
