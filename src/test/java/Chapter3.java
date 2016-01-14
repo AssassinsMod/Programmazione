@@ -1,5 +1,3 @@
-
-
 import java.util.*;
 
 import prog.utili.*;
@@ -8,7 +6,7 @@ import prog.utili.*;
  * Collection of chapter 3's exercises
  * @author AssassinsMod
  * @version 1.0.0
- * @since 1.0.2
+ * @since 1.1.0
  */
 public class Chapter3 {
     /**

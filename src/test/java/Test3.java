@@ -5,6 +5,12 @@ import static org.junit.Assert.assertEquals;
 
 import prog.utili.*;
 
+/**
+ * Tests for Chapter 3
+ * @author AssassinsMod
+ * @version 1.0.0
+ * @since 1.1.0
+ */
 public class Test3 {
     @Test
     public void Excercise21() {
